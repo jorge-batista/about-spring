@@ -1,0 +1,39 @@
+#spring:
+##  profiles:
+##    active: ${PROFILE_ENVIRONMENT:dev}
+#  servlet:
+#    multipart:
+#      enabled: true
+#      file-size-threshold: 3KB
+#      max-file-size: 250MB
+#      max-request-size: 250MB
+#
+#server:
+#  port: 9555
+#
+#  # Banco em "memória" (H2):
+#  # Url de acesso: http://localhost:9555/h2-console (após startar o projeto)
+#  jpa:
+#    database-platform: org.hibernate.dialect.H2Dialect
+#    hibernate:
+#      ddl-auto: update
+##      ddl-auto: create
+#    show-sql: false
+#    defer-datasource-initialization: true
+#
+#  datasource:
+#    url: jdbc:h2:mem:testdb
+#    driverClassName: org.h2.Driver
+#    username: sa
+#    password:
+#
+#  h2:
+#    console:
+#      enabled: true
+#
+##springdoc:
+##  api-docs:
+##    path: /api-docs
+##  swagger-ui:
+##    config-url:
+##            path: /swagger-ui.html
